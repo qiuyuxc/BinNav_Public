@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/11/25 04:17:48
+// 网站数据 - 通过管理后台更新于 2025/11/25 04:33:39
 
 // 站点配置
 export const siteConfig = {
@@ -14,55 +14,56 @@ export const siteConfig = {
 export const websiteData = [
   {
     "id": 1751807882512,
-    "name": "个人站点",
-    "description": "作者个人站点展示",
-    "url": "https://i.bincore.cn/",
+    "name": "临时邮箱",
+    "description": "匿名接收验证邮件，避免个人信息泄露与垃圾邮件骚扰。",
+    "url": "https://email.quiyu.cn/",
     "category": "author",
     "tags": [
-      "个人站点"
+      "免费",
+      "邮箱"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=i.bincore.cn"
+    "icon": "https://icon.nbvil.com/favicon?url=email.quiyu.cn"
   },
   {
     "id": 40,
     "name": "Newbie Village",
-    "description": "二进制博客",
-    "url": "https://blog.nbvil.com/",
+    "description": "博客",
+    "url": "https://blog.quiyu.cn",
     "category": "author",
     "tags": [
       "个人博客",
       "教程分享",
       "开发心得"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=blog.nbvil.com"
+    "icon": "https://icon.nbvil.com/favicon?url=blog.quiyu.cn"
   },
   {
     "id": 1751813976438,
-    "name": "博主云盘",
-    "description": "分享教程涉及的工具及相关文档代码",
-    "url": "https://pan.nbvil.com/",
+    "name": "云盘",
+    "description": "依靠Microsoft 365 E3 + OneDrive的免费盘",
+    "url": "https://pan.quiyu.cn",
     "category": "author",
     "tags": [
       "云盘"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=pan.nbvil.com"
+    "icon": "https://icon.nbvil.com/favicon?url=pan.quiyu.cn"
   },
   {
     "id": 1751598590526,
     "name": "YouTube频道",
-    "description": "作者YouTube频道，定期上传视频教程",
-    "url": "https://www.youtube.com/@nbvil.sindri",
+    "description": "YouTube频道",
+    "url": "https://youtube.com/@qf-c5l?si=Bc7TuTEGn9GDRBsb",
     "category": "author",
     "tags": [
       "视频"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.youtube.com"
+    "icon": "https://icon.nbvil.com/favicon?url=youtube.com"
   },
   {
     "id": 41,
     "name": "GitHub Projects",
     "description": "作者开源项目",
-    "url": "https://github.com/sindricn",
+    "url": "https://github.com/youi1586zxc",
     "category": "author",
     "tags": [
       "开源项目"
@@ -72,25 +73,13 @@ export const websiteData = [
   {
     "id": 1751596898467,
     "name": "B站",
-    "description": "作者B站频道，不定期上传视频教程",
-    "url": "https://space.bilibili.com/3546865807133625",
+    "description": "B站频道",
+    "url": "https://space.bilibili.com/1366400407",
     "category": "author",
     "tags": [
       "视频"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=bilibili.com"
-  },
-  {
-    "id": 45,
-    "name": "知乎专栏",
-    "description": "二进制-知乎",
-    "url": "https://www.zhihu.com/people/mrblack-41-9",
-    "category": "author",
-    "tags": [
-      "知乎专栏",
-      "技术文章"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=www.zhihu.com"
+    "icon": "https://icon.nbvil.com/favicon?url=space.bilibili.com"
   },
   {
     "id": 1751617129171,
@@ -105,6 +94,18 @@ export const websiteData = [
       "DDOS"
     ],
     "icon": "https://icon.nbvil.com/favicon?url=www.cloudflare.com"
+  },
+  {
+    "id": 1764016272318,
+    "name": "netlify",
+    "description": "Netlify提供静态网站托管与自动部署服务",
+    "url": "https://app.netlify.com/",
+    "category": "recommended",
+    "tags": [
+      "网站",
+      "部署"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=app.netlify.com"
   },
   {
     "id": 1751811992820,
@@ -277,7 +278,7 @@ export const categories = [
   {
     "id": "author",
     "name": "作者专栏",
-    "icon": "/assets/tech_blogger_avatar.png",
+    "icon": "/assets/1000024976.jpg",
     "special": true,
     "subcategories": []
   },
