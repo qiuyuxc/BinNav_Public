@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/11/25 10:27:32
+// 网站数据 - 通过管理后台更新于 2026/1/12 18:08:17
 
 // 站点配置
 export const siteConfig = {
@@ -28,14 +28,14 @@ export const websiteData = [
     "id": 40,
     "name": "QuiYu'Blog",
     "description": "博客",
-    "url": "https://blog.quiyun.com",
+    "url": "https://blog.quiyu.cn",
     "category": "author",
     "tags": [
       "个人博客",
       "教程分享",
       "开发心得"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=quiyun.com"
+    "icon": "https://icon.nbvil.com/favicon?url=blog.quiyu.cn"
   },
   {
     "id": 1751813976438,
@@ -366,5 +366,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2025-11-25"
+  lastUpdated: "2026-01-12"
 };
