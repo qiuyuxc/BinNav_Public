@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/1/12 18:08:17
+// 网站数据 - 通过管理后台更新于 2026/1/12 18:08:34
 
 // 站点配置
 export const siteConfig = {
@@ -40,7 +40,7 @@ export const websiteData = [
   {
     "id": 1751813976438,
     "name": "云盘",
-    "description": "依靠Microsoft 365 E3 + OneDrive的免费盘",
+    "description": "OpenList",
     "url": "https://pan.quiyu.cn",
     "category": "author",
     "tags": [
