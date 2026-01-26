@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2026/1/12 18:08:34
+// 网站数据 - 通过管理后台更新于 2026/1/26 23:47:08
 
 // 站点配置
 export const siteConfig = {
@@ -39,14 +39,14 @@ export const websiteData = [
   },
   {
     "id": 1751813976438,
-    "name": "云盘",
-    "description": "OpenList",
-    "url": "https://pan.quiyu.cn",
+    "name": "图床",
+    "description": "",
+    "url": "https://ipfs.klbbs.top",
     "category": "author",
     "tags": [
-      "云盘"
+      "图床"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=pan.quiyu.cn"
+    "icon": "https://icon.nbvil.com/favicon?url=klbbs.top"
   },
   {
     "id": 1751598590526,
@@ -366,5 +366,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2026-01-12"
+  lastUpdated: "2026-01-26"
 };
